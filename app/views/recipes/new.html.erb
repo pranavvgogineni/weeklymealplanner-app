@@ -1,0 +1,22 @@
+<h1>New Recipe</h1>
+<%= form_with model: @recipe do |form| %>
+  <div>
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+  <div>
+    <%= form.label :timetocook %>
+    <%= form.text_field :timetocook %>
+  </div>
+  <div>
+    <%= form.label :description %>
+    <%= form.text_field :description %>
+  </div>
+  <div>
+    <%= form.label :steps %>
+    <%= form.text_field :steps %>
+  </div>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end%>

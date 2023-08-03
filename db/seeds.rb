@@ -1,7 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+Recipe.create!([
+  {title: "pancakes", description: "1 cup flour, 2 tsps baking powder, 2 tsps sugar, Pinch of salt, 3/4 cup milk, 1 egg (beaten), 2 tbsps canola or vegetable oil, 2-3 tbsps butter (as a substitute for oil)", steps: "Step 1: Measure Dry Ingredients Step 2: Add an egg and milk and stir Step 3: Whisk until the batter thickens Step 4: Let batter rest for a few minutes Step 5: Use a griddle and turn the stove on to medium heat Step 6: Heat 1 tsp of oil or butter in the skillet Step 7: Ladle the pancake batter in small circles Step 8: Cook pancakes until the surface bubbles and then flip Step 9: Cook until they are golden brown Step 10: Put your favorite toppings", timetocook: "30 minutes or less"}
+])
