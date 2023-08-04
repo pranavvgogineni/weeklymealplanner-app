@@ -1,3 +1,4 @@
 class Week < ApplicationRecord
-  has_many :recipes
+  has_many :weeklymeals 
+  has_many :recipes, through: :weeklymeals
 end
