@@ -6,6 +6,7 @@ class WeeksController < ApplicationController
 
   def show
     @week = Week.find_by(id: params[:id])
+    @recipes = Recipe.all 
     render :show
   end
 

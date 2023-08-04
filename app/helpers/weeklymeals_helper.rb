@@ -1,0 +1,2 @@
+module WeeklymealsHelper
+end
